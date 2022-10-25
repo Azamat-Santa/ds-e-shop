@@ -1,0 +1,12 @@
+.search-block{
+    width: 419px;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    input{
+        border: 1px solid rgba(225, 225, 225, 1);
+        padding: 13px;
+        outline: none;
+        width: 300px;
+    }
+}

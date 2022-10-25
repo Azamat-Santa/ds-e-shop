@@ -1,0 +1,7 @@
+.list-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 313px);
+    justify-content: center;
+    grid-gap: 30px ;
+    margin-bottom: 170px;
+}

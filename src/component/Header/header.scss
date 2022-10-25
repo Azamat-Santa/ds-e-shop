@@ -1,0 +1,22 @@
+.header__wrapper{
+    width: 100%;
+    border-bottom:1px solid rgba(225, 225, 225, 1);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    position: relative;
+    margin-bottom: 45px;
+
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+    &.img{
+        width: 100%;
+    }
+}

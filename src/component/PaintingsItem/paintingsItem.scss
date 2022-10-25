@@ -1,0 +1,40 @@
+.painting-card {
+    border: 1px solid rgba(225, 225, 225, 1);
+    position: relative;
+
+    &.disabled::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #F6F3F3;
+        opacity: 50%;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    &__content {
+        padding: 23px;
+    }
+
+    &__title {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    &__price-before {
+        color: rgba(160, 160, 160, 1);
+        text-decoration: line-through;
+    }
+}
