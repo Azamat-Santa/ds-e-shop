@@ -1,6 +1,5 @@
 import React from 'react';
 import NavList from '../NavList/NavList';
-import SearchBlock from './../SearchBlock/SearchBlock';
 import logo from "../../img/logo.png";
 import phone from "../../img/phone.png";
 import adress from "../../img/adress.png";
