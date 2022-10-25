@@ -2,8 +2,6 @@ import { getPaintingsFailure, getPaintingsRequest, getPaintingsSuccess } from ".
 import { api } from "./axios";
 
 
-//---------------------- doctor --------------------//
-
 export const Paintings = {
   getAll: async () => {
     return api.get(`products/3`);
